@@ -1,0 +1,46 @@
+/* HEADER */
+header {
+    background-color: white;
+}
+
+.navbar-nav a {
+    font-family: Muli;
+    font-size: 18px;
+}
+
+.navbar-nav a.active {
+    font-family: Muli;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* HERO */
+.hero::before {
+    content: url('../images/element.png');
+    position: absolute;
+    top: 180px;
+    left: -40px;
+}
+
+.hero h1 {
+    font-family: Muli;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+}
+
+.hero p {
+    font-family: Muli;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21px;
+}
+
+.hero button {
+    font-family: Muli;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 60px;
+    background: #458FF6;
+}
