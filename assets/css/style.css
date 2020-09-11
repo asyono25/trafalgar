@@ -1,3 +1,5 @@
+@import url("https://use.typekit.net/jri7csq.css");
+
 /* HEADER */
 header {
     background-color: white;
@@ -70,8 +72,34 @@ hr {
     color: #7D7987;
 }
 
+.card-service p {
+    font-family: Muli;
+    font-weight: 300;
+    font-size: 16px;
+    color: #7D7987;
+}
+
+.btn-secondary {
+    font-family: Muli;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 60px;
+    background: #fff;
+    color: #458FF6;
+    border: 1px #458FF6 solid;
+}
+
+.btn-secondary:hover, .btn-secondary:active:focus {
+    background-color: #458FF6 !important;
+    border: 1px #458FF6 solid;
+}
+
 .services {
     background: #FFFFFF;
     box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
     border-radius: 20px;
+    max-height: 350px;
+    min-height: 350px;
 }
+
